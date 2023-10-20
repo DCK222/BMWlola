@@ -1,0 +1,1082 @@
+body{
+  height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  
+
+  #hero{
+
+      background-image: url('src/assets/car-6483720_1280.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+  }
+  body {
+   
+
+      /* Fija la imagen de fondo para que no se desplace con el contenido */
+      
+  }
+
+  #logo {
+      width: 50px;
+      margin-left: 5%;
+      margin-top: 5px;
+  }
+
+  .cabecera {
+      display: flex;
+      justify-content: space-between;
+      /* Alinea los elementos en los extremos opuestos del contenedor */
+      align-items: center;
+      /* Alinea verticalmente los elementos en el centro */
+      height: 95%;
+
+
+  }
+
+  .accionescabecera {
+      background-color: aqua;
+  }
+
+  #iconos {
+      display: flex;
+      align-items: right;
+      margin-left: auto;
+      margin-left: 100%;
+  }
+  
+  /* Añade margen izquierdo al elemento con ID #cocherepo para espaciarlo del elemento anterior */
+  #cocherepo {
+      margin-right: 30px; /* Puedes ajustar este valor según tu preferencia */
+  }
+
+  
+
+  #titulo {
+      color: rgb(255, 255, 255);
+
+  }
+
+  #titulo1 {
+      color: rgb(255, 255, 255);
+      font-size: 200px;
+
+
+  }
+
+  #titulo2 {
+      color: rgb(255, 255, 255);
+
+  }
+
+  #titulosdiv {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 250px;
+      /* Ajusta el margen superior según tus necesidades */
+  }
+
+  #titulo,
+  #titulo1,
+  #titulo2 {
+      margin: 3px 0;
+      /* Ajusta el espacio entre los títulos verticalmente */
+  }
+
+  .botonesinicio {
+      margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .botonesinicio button {
+      display: block;
+      margin-bottom: 10px;
+      /* Espacio entre los botones, ajusta según tus preferencias */
+
+
+  }
+
+  .btn active {
+      color: aliceblue;
+  }
+
+  #botonaccion {
+
+      color: aliceblue;
+
+  }
+
+  #tarjetas {
+      background-color: white;
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+  }
+
+  /* Estilos del encabezado (header) */
+  header {
+      background-color: #f1f1f100;
+      color: #fff;
+      padding: 20px 0;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+  }
+
+  /* Estilos del área de inicio (hero) */
+  #hero {
+
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+  }
+
+  #titulosdiv h1 {
+      font-size: 48px;
+      margin: 10px 0;
+  }
+
+  /* Estilos de los botones */
+  .btn {
+      padding: 10px 20px;
+      margin: 10px;
+  }
+
+  /* Estilos de las tarjetas y otras secciones */
+  #tarjetas {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+
+
+  footer {
+      background-color: rgb(255, 255, 255);
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+  }
+
+  #tarjetas2 #tarjetas>div {
+      margin-bottom: 20px;
+      /* Añade margen inferior para más espacio entre los divs */
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+  }
+
+  #titulotarjetas {
+      margin-top: 15%;
+  }
+
+  #nuevoi5 {
+      background-image: url('src/assets/martin-katler-94lAQc7ipNg-unsplash.jpg');
+      background-size: cover;
+      /* Utiliza 'cover' para ajustar la imagen de fondo al tamaño de la pantalla */
+      background-position: center center;
+      /* Centra la imagen tanto horizontal como verticalmente */
+      background-attachment: fixed;
+     
+  }
+  #final{
+      background-color: #fff;
+      color: #000;
+      
+  }
+
+  #formulariocaja {
+      text-align: center;
+      background-color: #f2f2f2cc;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: 0 auto;
+  }
+  
+  #formulariocaja .form-control {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid rgb(59, 90, 135);
+      border-radius: 5px;
+  }
+
+  #vamueaver{
+      height: 600px; /* Ajusta la altura deseada */
+  margin-top: -8px; /* Ajusta el margen superior negativo para moverlo hacia arriba */
+  
+  padding: 1px; /* Espacio interno en el div */
+  text-align: center; /* Alineación de texto al centro */
+  } 
+
+
+  .bn13 {
+      display: inline-block;
+      padding: 1.2em 2.2em;
+      border: 3px solid #000000;
+      margin: 0 0.3em 0.3em 0;
+      border-radius: 0.12em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      color: #ffffff;
+      font-size: 20px;
+      text-align: center;
+      transition: all 0.2s;
+      animation: bn13bouncy 5s infinite linear;
+      position: relative;
+      
+    }
+    
+    .bn13:hover {
+      background-color: rgb(0, 0, 0);
+      color: #ffffff;
+    }
+    
+    @keyframes bn13bouncy {
+      0% {
+        top: 0em;
+      }
+      40% {
+        top: 0em;
+      }
+      43% {
+        top: -0.9em;
+      }
+      46% {
+        top: 0em;
+      }
+      48% {
+        top: -0.4em;
+      }
+      50% {
+        top: 0em;
+      }
+      100% {
+        top: 0em;
+      }
+    }
+    .bn14 {
+      display: inline-block;
+      padding: 1.2em 2.2em;
+      border: 3px solid #0214dc;
+      margin: 0 0.3em 0.3em 0;
+      border-radius: 0.12em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      color: #ffffff;
+      text-align: center;
+      transition: all 0.2s;
+      animation: bn13bouncy 5s infinite linear;
+      position: relative;
+      
+    }
+    
+    .bn14:hover {
+      background-color: rgb(79, 149, 255);
+      color: #ffffff;
+    }
+    
+    @keyframes bn14bouncy {
+      0% {
+        top: 0em;
+      }
+      40% {
+        top: 0em;
+      }
+      43% {
+        top: -0.9em;
+      }
+      46% {
+        top: 0em;
+      }
+      48% {
+        top: -0.4em;
+      }
+      50% {
+        top: 0em;
+      }
+      100% {
+        top: 0em;
+      }
+    }
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+      #promocion{
+          margin: 5%;
+      }
+      
+      #imgwox {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          height: 100vh;
+          width: 100%;
+      }
+      
+  #hero{
+
+      background-image: url('src/assets/car-6483720_1280.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+  }
+  body {
+   
+
+      /* Fija la imagen de fondo para que no se desplace con el contenido */
+      
+  }
+
+  #logo {
+      width: 50px;
+      margin-left:120%;
+      margin-top: 5px;
+  }
+
+  .cabecera {
+      display: flex;
+      justify-content: space-between;
+      /* Alinea los elementos en los extremos opuestos del contenedor */
+      align-items: center;
+      /* Alinea verticalmente los elementos en el centro */
+      height: 95%;
+
+
+  }
+
+  .accionescabecera {
+      background-color: aqua;
+  }
+
+  #iconos {
+      display: flex;
+      align-items: right;
+      margin-left: auto;
+      margin-left: 350%;
+  }
+  
+  /* Añade margen izquierdo al elemento con ID #cocherepo para espaciarlo del elemento anterior */
+  #cocherepo {
+      margin-right: 30px; /* Puedes ajustar este valor según tu preferencia */
+  }
+
+  .cochesect {
+      margin-right: 20%px;
+      /* Reduce el margen derecho */
+  }
+
+  #titulo {
+      color: rgb(255, 255, 255);
+
+  }
+
+  #titulo1 {
+      color: rgb(255, 255, 255);
+      font-size: 200px;
+
+
+  }
+
+  #titulo2 {
+      color: rgb(255, 255, 255);
+
+  }
+
+  #titulosdiv {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 250px;
+      /* Ajusta el margen superior según tus necesidades */
+  }
+
+  #titulo,
+  #titulo1,
+  #titulo2 {
+      margin: 3px 0;
+      /* Ajusta el espacio entre los títulos verticalmente */
+  }
+
+  .botonesinicio {
+      margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .botonesinicio button {
+      display: block;
+      margin-bottom: 10px;
+      /* Espacio entre los botones, ajusta según tus preferencias */
+
+
+  }
+
+  .btn active {
+      color: aliceblue;
+  }
+
+  #botonaccion {
+
+      color: aliceblue;
+
+  }
+
+  #tarjetas {
+      background-color: white;
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+  }
+
+  /* Estilos del encabezado (header) */
+  header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+  }
+
+  /* Estilos del área de inicio (hero) */
+  #hero {
+
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+  }
+
+  #titulosdiv h1 {
+      font-size: 48px;
+      margin: 10px 0;
+  }
+
+  /* Estilos de los botones */
+  .btn {
+      padding: 10px 20px;
+      margin: 10px;
+  }
+
+  /* Estilos de las tarjetas y otras secciones */
+  #tarjetas {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+
+
+  footer {
+      background-color: rgb(255, 255, 255);
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+  }
+
+  #tarjetas2 #tarjetas>div {
+      margin-bottom: 20px;
+      /* Añade margen inferior para más espacio entre los divs */
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+  }
+
+  #titulotarjetas {
+      margin-top: 15%;
+  }
+
+  #nuevoi5 {
+      background-image: url('src/assets/martin-katler-94lAQc7ipNg-unsplash.jpg');
+      background-size: cover;
+      /* Utiliza 'cover' para ajustar la imagen de fondo al tamaño de la pantalla */
+      background-position: center center;
+      /* Centra la imagen tanto horizontal como verticalmente */
+      background-attachment: fixed;
+     
+  }
+  #final{
+      background-color: #fff;
+      color: #000;
+      
+  }
+  #formulariocaja{
+
+  }
+  #formulariocaja {
+      text-align: center;
+      background-color: #f2f2f2cc;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: 0 auto;
+  }
+  
+  #formulariocaja .form-control {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid rgb(59, 90, 135);
+      border-radius: 5px;
+  }
+
+  #vamueaver{
+      height: 600px; /* Ajusta la altura deseada */
+  margin-top: -8px; /* Ajusta el margen superior negativo para moverlo hacia arriba */
+  
+  padding: 1px; /* Espacio interno en el div */
+  text-align: center; /* Alineación de texto al centro */
+  }
+  .bn13 {
+      display: inline-block;
+      padding: 1.2em 2.2em;
+      border: 3px solid #000000;
+      margin: 0 0.3em 0.3em 0;
+      border-radius: 0.12em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      color: #ffffff;
+      font-size: 20px;
+      text-align: center;
+      transition: all 0.2s;
+      animation: bn13bouncy 5s infinite linear;
+      position: relative;
+      background-color: #ababab75;
+    }
+    
+    .bn13:hover {
+      background-color: rgb(0, 0, 0);
+      color: #ffffff;
+    }
+    
+    @keyframes bn13bouncy {
+      0% {
+        top: 0em;
+      }
+      40% {
+        top: 0em;
+      }
+      43% {
+        top: -0.9em;
+      }
+      46% {
+        top: 0em;
+      }
+      48% {
+        top: -0.4em;
+      }
+      50% {
+        top: 0em;
+      }
+      100% {
+        top: 0em;
+      }
+    }
+    .bn14 {
+      display: inline-block;
+      padding: 1.2em 2.2em;
+      border: 3px solid #0214dc;
+      margin: 0 0.3em 0.3em 0;
+      border-radius: 0.12em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      color: #ffffff;
+      text-align: center;
+      transition: all 0.2s;
+      animation: bn13bouncy 5s infinite linear;
+      position: relative;
+      background-color: #ababab75;
+    }
+    
+    .bn14:hover {
+      background-color: rgb(79, 149, 255);
+      color: #ffffff;
+    }
+    
+    @keyframes bn14bouncy {
+      0% {
+        top: 0em;
+      }
+      40% {
+        top: 0em;
+      }
+      43% {
+        top: -0.9em;
+      }
+      46% {
+        top: 0em;
+      }
+      48% {
+        top: -0.4em;
+      }
+      50% {
+        top: 0em;
+      }
+      100% {
+        top: 0em;
+      }
+    }
+      
+     
+}
+@media (min-width: 1025px) {
+
+  #promocion{
+      margin: 5%;
+  }
+
+  #wallbox{
+      display: flex;
+      border-bottom: 3px solid rgb(204, 204, 204);
+  }
+  #imgwox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 80vh;
+      width: 50%;
+      
+  }
+  #promocion{
+      width: 50%;
+  }
+#hero{
+
+  background-image: url('src/assets/BmwNUevoFOnfo.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+body {
+
+
+  /* Fija la imagen de fondo para que no se desplace con el contenido */
+  
+}
+
+#logo {
+  width: 50px;
+  margin-left:120%;
+  margin-top: 5px;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  /* Alinea los elementos en los extremos opuestos del contenedor */
+  align-items: center;
+  /* Alinea verticalmente los elementos en el centro */
+  height: 95%;
+
+
+}
+
+.accionescabecera {
+  background-color: aqua;
+}
+
+#iconos {
+  display: flex;
+  align-items: right;
+  margin-left: 1000%;
+  
+}
+
+/* Añade margen izquierdo al elemento con ID #cocherepo para espaciarlo del elemento anterior */
+#cocherepo {
+  margin-right: 30px; /* Puedes ajustar este valor según tu preferencia */
+}
+
+.cochesect {
+  margin-right: 20%px;
+  /* Reduce el margen derecho */
+}
+
+
+
+#titulosdiv {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  height: 40%;
+  
+  /* Ajusta el margen superior según tus necesidades */
+}
+
+#titulo,
+#titulo1,
+#titulo2 {
+  margin: 3px 0;
+  /* Ajusta el espacio entre los títulos verticalmente */
+}
+
+.botonesinicio {
+  margin-top: 10%;
+  display: flex;
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  margin: 5%;
+  
+ 
+
+}
+
+.botonesinicio button {
+  display: block;
+  margin-bottom: 10px;
+  /* Espacio entre los botones, ajusta según tus preferencias */
+
+
+}
+
+.btn active {
+  color: aliceblue;
+}
+
+#botonaccion {
+
+  color: aliceblue;
+
+}
+
+#tarjetas {
+  background-color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos del encabezado (header) */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Estilos del área de inicio (hero) */
+#hero {
+
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  height: 45rem;
+  
+}
+
+
+#titulosdiv{
+  display: flex;
+flex-direction: column; /* Coloca los elementos en columna (hacia abajo) */
+justify-content: flex-start; /* Alinea los elementos a la izquierda */
+align-items: flex-start;
+margin: 5%;
+}
+
+/* Estilos de los botones */
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+/* Estilos de las tarjetas y otras secciones */
+
+
+
+
+footer {
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+#tarjetas {
+
+  display: flex;
+  flex-grow: 3;
+  align-items: center;
+  height: 25rem;
+  margin-bottom: 6%;
+  margin-top: -5%;
+}
+#tarjetasp{
+  font-size: 25px;
+}
+#titulotarjet{
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+#herramientascompra{
+  font-size: 30px;
+}
+#encuentrabmw{
+font-size: 60px;
+}
+
+#tarjetas2 #tarjetas>div {
+  margin-bottom: 20px;
+  /* Añade margen inferior para más espacio entre los divs */
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  height: 15rem;
+}
+
+#titulotarjetas {
+  margin-top: 15%;
+}
+#vehiculosdiv,
+#contacto,
+#nosetodavia {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+  background: #f0f0f0; /* Color de fondo de las tarjetas */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10rem;
+}
+
+
+#nuevoi5 {
+  background-image: url('src/assets/martin-katler-94lAQc7ipNg-unsplash.jpg');
+  background-size: cover;
+  /* Utiliza 'cover' para ajustar la imagen de fondo al tamaño de la pantalla */
+  background-position: center center;
+  /* Centra la imagen tanto horizontal como verticalmente */
+  background-attachment: fixed;
+  height: 45rem;
+  color: #f0f0f0;
+ 
+}
+#final{
+  background-color: #fff;
+  color: #000;
+  height: 100%;
+  
+}
+
+#formulariocaja {
+  text-align: center;
+  background-color: #f2f2f2cc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 60%;
+}
+
+#formulariocaja .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(59, 90, 135);
+  border-radius: 5px;
+}
+
+#vamueaver{
+  height: 600px; /* Ajusta la altura deseada */
+margin-top: -8px; /* Ajusta el margen superior negativo para moverlo hacia arriba */
+
+padding: 1px; /* Espacio interno en el div */
+text-align: center; /* Alineación de texto al centro */
+
+
+
+}
+#titulo0{
+font-size: 30px;
+}
+#titulo01{
+  font-size: 50px;
+}
+#titulo1{
+font-size: 150px;
+}
+#titulo2{
+font-size: 30px;
+}
+.bn13 {
+  display: inline-block;
+  padding: 1.2em 2.2em;
+  border: 3px solid #000000;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  transition: all 0.2s;
+  animation: bn13bouncy 5s infinite linear;
+  position: relative;
+  background-color: #000;
+  
+}
+
+.bn13:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+@keyframes bn13bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+.bn14 {
+  display: inline-block;
+  padding: 1.2em 2.2em;
+  border: 3px solid #0214dc;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  animation: bn13bouncy 5s infinite linear;
+  position: relative;
+  background-color: blue;
+  
+}
+
+.bn14:hover {
+  background-color: rgb(79, 149, 255);
+  color: #ffffff;
+}
+
+@keyframes bn14bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+/* cabecera estilos letras */
+.navbar-nav .nav-link {
+  color: #ffffff; /* Reemplaza #ff0000 con el color deseado, por ejemplo, rojo */
+}
+.navbar-nav .nav-link:hover {
+  color: #0026ff; /* Reemplaza #ff0000 con el color deseado para el estado "hover" */
+}
+  
+}
